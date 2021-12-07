@@ -1,6 +1,6 @@
-# pre-proposal
-My project pre proposal 
-
-
-
-This is my first document in my file, I am trying to get the hang of how github works.
+Dr. Rosen in one of our lectures mentioned how every proect can balloon in difficulty way faster than expected even if the project is anticpated to be simple.
+This is exactly what happened with our project. Our biggst issue was trying to create our own time series within pandas that began with the creation of my netflix account and ended with when netflix sent me the csv file. Then within that time series we wanted to iterate over every 30 days to, create a graph for those 30 days inclduing the top 5-7 shows from that month, then update the graphs every 1-2 seconds to create a bar chart race.
+In the end we were happy with getting our data into a manipulatable state. It was far more of a challenge to figure out a list of all the shows watched over my accounts life time than we ever expected. Figuring out how to create a dateframe with two columns one being the title and the second being the total duration of the show became our main goal. We managed to figure it out using a few functions in less than about 30 lines after many hours.
+Any one can input their netflix veiwing data. Netflix csv files all looks the same when they are made available for the user therefore anyone can plug their csv file into this program to use our sumfunc() which finds the total time watched for a specific show or to view an overall list of shows that they have watched with the time measured in hours. Any show that has not been watched on the users account will not be listed in the final dataframe.
+A further understanding of dataframes and pandas in general will allow us to finish this project in the future. During this project I learned how to use pandas, numpy even though I did not end up inclduing the numpy module in any of my work I considered it at one point, and matplotlib. I learned a lot about dataframes and how useful pandas can really be when dealing with times and dates even though we didnt quite get the graphing with the times and dates figured out in our project. 
+This is a project that I will without a doubt continue in the future for fun. I think I really found an 'alley' of coding that I enjoy and thuroughly enojoyed our class this semester. There wasnt an assignment of class that I did not find beneficial to my coding skills.
